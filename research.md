@@ -11,8 +11,7 @@ permalink: /research/
 
 Exploring labor reallocation following minimum-wage increases using Korea's nationwide employer–employee matched data (2015–2020, 300M+ obs), and identifying how regional business cycles moderate both employment and reallocation adjustments.
 
-- Slides: (Coming soon)
-- PDF Working Paper: (Coming soon)
+ -(📄 Slides (PDF): (Coming soon)
 
 ---
 
@@ -21,4 +20,4 @@ Exploring labor reallocation following minimum-wage increases using Korea's nati
 
 Studying how flexible work arrangements, on-site childcare, and remote-working environments mitigate the motherhood penalty using causal forest models.
 
-- Slides: (Coming soon)
+-(📄 [Slides (PDF)](/assets/files/Amenity_Slides.pdf)
