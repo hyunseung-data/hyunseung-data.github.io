@@ -1,0 +1,5 @@
+/* 사이드바 프로필 사진: 크게 + 네모 */
+.author__avatar img {
+  max-width: 200px !important;
+  border-radius: 0 !important;
+}

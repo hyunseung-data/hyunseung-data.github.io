@@ -5,8 +5,6 @@ permalink: /
 author_profile: true
 ---
 
-<img src="/images/profile.jpeg" alt="Hyunseung Lee" style="width: 180px; border-radius: 50%; margin-bottom: 1rem; border: 3px solid rgba(79, 209, 197, 0.5); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-
 I am a second-year M.A. student in Economics at **Seoul National University**, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). 
 
 My research interests lie in **causal machine learning**, **labor economics**, and **applied microeconometrics**. I am particularly interested in using large-scale administrative data to study labor market dynamics and policy effects.
