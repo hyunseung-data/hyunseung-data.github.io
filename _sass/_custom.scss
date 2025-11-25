@@ -1,0 +1,180 @@
+// Custom styles for Hyunseung Lee's Portfolio
+// Extends al-folio theme with data science aesthetic
+
+// Custom color variables (override al-folio defaults)
+$theme-color: #2d5a8a;           // Steel blue - professional
+$theme-color-dark: #1a365d;      // Deep navy
+$accent-color: #4fd1c5;          // Teal accent
+
+// Typography enhancements
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+// Profile image styling
+.profile {
+  .profile-img {
+    border: 3px solid rgba($theme-color, 0.2);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+// Navigation enhancements
+header {
+  nav {
+    a {
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: $accent-color;
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+      
+      &:hover::after,
+      &.active::after {
+        width: 80%;
+      }
+    }
+  }
+}
+
+// Card styling for content sections
+.card {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Skills/tags styling
+code {
+  background: linear-gradient(135deg, rgba($accent-color, 0.15), rgba($theme-color, 0.1));
+  color: $theme-color-dark;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+// Table styling
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  
+  th {
+    background: $theme-color-dark;
+    color: white;
+    font-weight: 600;
+  }
+  
+  td {
+    code {
+      background: rgba($theme-color, 0.08);
+    }
+  }
+}
+
+// Blockquote styling (for research statement)
+blockquote {
+  border-left: 4px solid $accent-color;
+  background: linear-gradient(135deg, rgba($accent-color, 0.05), rgba($theme-color, 0.03));
+  padding: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  
+  p {
+    margin: 0;
+    line-height: 1.8;
+  }
+}
+
+// Horizontal rule styling
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba($theme-color, 0.2), transparent);
+  margin: 2.5rem 0;
+}
+
+// Section headers
+h2 {
+  position: relative;
+  display: inline-block;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: $accent-color;
+    margin-top: 0.5rem;
+  }
+}
+
+h3 {
+  color: $theme-color;
+}
+
+// Link styling
+a {
+  color: $theme-color;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: darken($theme-color, 10%);
+  }
+}
+
+// Footer enhancements
+footer {
+  background: $theme-color-dark;
+  
+  a {
+    color: $accent-color;
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+// Dark mode adjustments
+html[data-theme="dark"] {
+  $theme-color-dark-mode: lighten($theme-color, 20%);
+  
+  blockquote {
+    background: rgba($accent-color, 0.1);
+  }
+  
+  code {
+    background: rgba($accent-color, 0.2);
+    color: lighten($accent-color, 20%);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .profile {
+    .profile-img {
+      max-width: 150px;
+    }
+  }
+}
+

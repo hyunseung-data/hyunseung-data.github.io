@@ -1,94 +1,136 @@
-title: "Hyunseung Lee"
-name: "Hyunseung Lee"
-email: "thomas96124@gmail.com"
-description: "M.A. Economics @ Seoul National University | Aspiring Data Scientist | Applied Microeconometrics & Causal Inference"
-url: "https://hyunseung-data.github.io"
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Hyunseung Lee
+first_name: Hyunseung
+last_name: Lee
+email: thomas96124@gmail.com
+description: >
+  M.A. Economics @ Seoul National University | Aspiring Data Scientist | Causal Inference & Machine Learning
+url: https://hyunseung-data.github.io
 baseurl: ""
 
-# Minimal Mistakes theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+remote_theme: alshedivat/al-folio
 
-# Skin - using default with our custom overrides
-minimal_mistakes_skin: "default"
-locale: "en-US"
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+navbar_fixed: true
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
 
-# Build settings
+# Dimensions
+max_width: 940px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+serve_og_meta: true
+serve_schema_org: true
+og_image: /assets/img/profile.jpeg
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: hyunseung-data
+linkedin_username: hyunseunglee
+email_address: thomas96124@gmail.com
+
+# -----------------------------------------------------------------------------
+# Analytics
+# -----------------------------------------------------------------------------
+# google_analytics: UA-XXXXXXXXX-X
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
-# Outputting
-permalink: /:title/
+# Includes & Coverage
+include: ['_pages']
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
-# Reading Files
-include:
-  - _pages
-
-# Site Author
-author:
-  name: "Hyunseung Lee"
-  avatar: "/assets/img/profile.jpeg"
-  bio: "M.A. Economics @ SNU | Data Science & Causal Inference"
-  location: "Seoul, South Korea"
-  email: "thomas96124@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:thomas96124@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hyunseung-data"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hyunseunglee"
-
-# Site Footer
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:thomas96124@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hyunseung-data"
-
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-
-# Navigation
-header:
-  overlay_color: "#1a365d"
-
-# Main links in navigation
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Research"
-    url: /research/
-  - title: "Projects"
-    url: /projects/
-  - title: "CV"
-    url: /cv/
-
-# Plugins (GitHub Pages safe)
+# Plug-ins
 plugins:
+  - jekyll-archives
+  - jekyll-email-protect
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-scholar
   - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
-# Analytics (optional - add your Google Analytics ID)
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "UA-XXXXXXXXX-X"
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+scholar:
+  last_name: [Lee]
+  first_name: [Hyunseung]
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+# -----------------------------------------------------------------------------
+# Pagination
+# -----------------------------------------------------------------------------
+pagination:
+  enabled: true
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+enable_google_analytics: false
+enable_panelbear_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_hierarchies: false
+enable_project_categories: true
+enable_medium_zoom: true

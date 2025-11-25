@@ -1,11 +1,2 @@
-# Main navigation links
-main:
-  - title: "Home"
-    url: /
-  - title: "Research"
-    url: /research/
-  - title: "Projects"
-    url: /projects/
-  - title: "CV"
-    url: /cv/
-
+# Navigation links displayed in the header
+# Order is determined by nav_order in each page's front matter
