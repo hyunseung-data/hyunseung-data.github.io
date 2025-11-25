@@ -1,0 +1,33 @@
+title: "Hyunseung Lee"
+name: "Hyunseung Lee"
+email: "thomas96124@gmail.com"
+description: "M.A. Economics student at SNU | Labor, minimum wage, and data-driven policy"
+url: "https://hyunseung.github.io"
+
+# Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# 기본 레이아웃 설정
+minimal_mistakes_skin: "default"   # 나중에 dark, air 등 바꿔볼 수 있음
+locale: "en-US"
+
+markdown: kramdown
+
+# 네비게이션 메뉴 설정
+navbar:
+  title: "Hyunseung Lee"
+  logo: # 필요 없으면 비워둬도 됨
+  nav:
+    - title: "Home"
+      url: /
+    - title: "Research"
+      url: /research/
+    - title: "Projects"
+      url: /projects/
+    - title: "CV"
+      url: /cv/
+
+# Plugins (GitHub Pages에서 허용되는 것만)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
