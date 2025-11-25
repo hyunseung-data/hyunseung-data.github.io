@@ -13,7 +13,8 @@ author_profile: true
 
 Compared substitution patterns across Conditional Logit, Nested Logit, and Mixed Logit models using Nevo’s cereal dataset(Nevo, 2001). Evaluated how relaxing the IIA assumption affects estimated elasticities and market share responses.
 
-**Methods**: Conditional Logit, Nested Logit, Mixed Logit 📌 Code files to be added
+**Methods**: Conditional Logit, Nested Logit, Mixed Logit  
+📌 Code files to be added
 
 ---
 ### Deep Learning for Inflation Forecasting
@@ -21,7 +22,8 @@ Compared substitution patterns across Conditional Logit, Nested Logit, and Mixed
 
 Compared VAR models with Bayesian LSTM for macroeconomic forecasting. Implemented proper time-series cross-validation and uncertainty quantification.
 
-**Methods**: VAR, Bayesian LSTM 📌 Code files to be added
+**Methods**: VAR, Bayesian LSTM   
+📌 Code files to be added
 
 ---
 

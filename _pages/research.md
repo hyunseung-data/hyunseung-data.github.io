@@ -5,18 +5,18 @@ permalink: /research/
 author_profile: true
 ---
 
-## Working Papers
+## Ongoing Projects
 
 ### Reallocation Channel of a Minimum-Wage Shock
 *with Prof. Jungmin Lee (Seoul National University)*
 
 We analyze labor reallocation dynamics following South Korea's minimum wage increases (2017–2019) using employer–employee matched administrative data (300M+ observations). Our DiD design exploits geographic variation in minimum wage exposure to identify how regional business cycles moderate employment and reallocation effects.
 
-📄 *Slides coming soon*
+📄 [Slides (PDF)](/assets/files/MW_Slides.pdf)
 
 ---
 
-## Ongoing Projects
+## Working Papers
 
 ### Family-Friendly Firms and the Motherhood Penalty
 *with Tammy Lee & Prof. Jungmin Lee*

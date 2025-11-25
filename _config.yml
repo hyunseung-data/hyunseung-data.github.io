@@ -28,7 +28,7 @@ author:
       url: "https://github.com/hyunseung-data"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/files/CV.pdf"
+      url: "https://hyunseung-data.github.io/assets/files/CV.pdf"
 
 # Defaults
 defaults:

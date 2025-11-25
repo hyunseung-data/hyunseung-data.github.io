@@ -29,10 +29,11 @@ I am seeking **Data Science M.S. programs** for Fall 2026, aiming to deepen my e
 
 ## Current Research
 
-**Reallocation Channel of a Minimum-Wage Shock** *(with Prof. Jungmin Lee)*
-📄 [Slides (PDF)](/assets/files/MW_Slides.pdf)
+**Reallocation Channel of a Minimum-Wage Shock** 📄 [Slides (PDF)](/assets/files/MW_Slides.pdf)  
+*(with Prof. Jungmin Lee)*
 
-**Family-Friendly Firms and the Motherhood Penalty** *(with Tammy Lee & Prof. Jungmin Lee)*
-📄 [Slides (PDF)](/assets/files/Amenity_Slides.pdf)
+**Family-Friendly Firms and the Motherhood Penalty** 📄 [Slides (PDF)](/assets/files/Amenity_Slides.pdf)  
+*(with Tammy Lee & Prof. Jungmin Lee)*
+
 
 ---
