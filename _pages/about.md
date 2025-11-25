@@ -34,6 +34,5 @@ I am seeking **Data Science M.S. programs** for Fall 2026, aiming to deepen my e
 
 **Family-Friendly Firms and the Motherhood Penalty** *(with Tammy Lee & Prof. Jungmin Lee)*
 📄 [Slides (PDF)](/assets/files/Amenity_Slides.pdf)
----
 
-📄 [**Download CV (PDF)**](/assets/files/CV.pdf)
+---

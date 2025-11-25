@@ -11,10 +11,9 @@ author_profile: true
 ### Comparison of Discrete Choice Models  
 *Course: Studies in Quantitative Marketing Decision Making*
 
-Compared substitution patterns across Conditional Logit, Nested Logit, and Mixed Logit models using Nevo’s cereal dataset. Evaluated how relaxing the IIA assumption affects estimated elasticities and market share responses.
+Compared substitution patterns across Conditional Logit, Nested Logit, and Mixed Logit models using Nevo’s cereal dataset(Nevo, 2001). Evaluated how relaxing the IIA assumption affects estimated elasticities and market share responses.
 
-**Methods**: Conditional Logit, Nested Logit, Mixed Logit, Elasticity Analysis, pyblp
-📌 Code files to be added
+**Methods**: Conditional Logit, Nested Logit, Mixed Logit 📌 Code files to be added
 
 ---
 ### Deep Learning for Inflation Forecasting
@@ -22,8 +21,7 @@ Compared substitution patterns across Conditional Logit, Nested Logit, and Mixed
 
 Compared VAR models with Bayesian LSTM for macroeconomic forecasting. Implemented proper time-series cross-validation and uncertainty quantification.
 
-**Methods**: VAR, Bayesian LSTM, PyTorch
-📌 Code files to be added
+**Methods**: VAR, Bayesian LSTM 📌 Code files to be added
 
 ---
 
@@ -33,5 +31,5 @@ Compared VAR models with Bayesian LSTM for macroeconomic forecasting. Implemente
 |----------|--------|
 | **Languages** | Python, R, SQL, Stata |
 | **ML/DS** | scikit-learn, PyTorch, Causal Forest |
-| **Econometrics** | DiD, IV, RDD, pyblp, Panel Data |
+| **Econometrics** | DiD, IV, RDD, TWFE |
 | **Tools** | Git, AWS, Airflow, Tableau |

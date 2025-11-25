@@ -26,6 +26,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hyunseung-data"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV.pdf"
 
 # Defaults
 defaults:
