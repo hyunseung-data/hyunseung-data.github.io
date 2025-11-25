@@ -1,20 +1,8 @@
 ---
-layout: about
-title: About
+layout: single
+title: "About"
 permalink: /
-subtitle: M.A. in Economics, Seoul National University
-
-profile:
-  align: left
-  image: profile.jpeg
-  image_circular: true
-  more_info: >
-    <p>📧 thomas96124@gmail.com</p>
-    <p>📍 Seoul, South Korea</p>
-
-news: false
-selected_papers: false
-social: true
+author_profile: true
 ---
 
 I am a first-year M.A. student in Economics at **Seoul National University**, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee). 
@@ -27,8 +15,8 @@ I am currently seeking **Data Science M.S. programs** for Fall 2026.
 
 ---
 
-**Research Interests**: Causal Inference, Labor Economics, Applied Microeconometrics, Machine Learning for Causal Inference
+**Research Interests**: Causal Inference, Labor Economics, Applied Microeconometrics, Machine Learning
 
 ---
 
-<a href="/assets/files/CV.pdf" style="display: inline-block; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 5px; margin-top: 10px;">📄 Curriculum Vitae (PDF)</a>
+📄 [**Curriculum Vitae (PDF)**](/assets/files/CV.pdf)

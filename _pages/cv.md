@@ -1,13 +1,11 @@
 ---
-layout: page
-title: CV
+layout: single
+title: "CV"
 permalink: /cv/
-description: 
-nav: true
-nav_order: 3
+author_profile: true
 ---
 
-<a href="/assets/files/CV.pdf" style="display: inline-block; padding: 12px 24px; background: #333; color: white; text-decoration: none; border-radius: 5px; font-weight: 500;">📄 Download CV (PDF)</a>
+📄 [**Download CV (PDF)**](/assets/files/CV.pdf)
 
 ---
 

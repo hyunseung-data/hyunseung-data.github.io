@@ -1,91 +1,49 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-
-title: Hyunseung Lee
-first_name: Hyunseung
-last_name: Lee
-email: thomas96124@gmail.com
-description: >
-  M.A. Economics @ Seoul National University | Aspiring Data Scientist
-url: https://hyunseung-data.github.io
+# Site Settings
+title: "Hyunseung Lee"
+name: "Hyunseung Lee"
+email: "thomas96124@gmail.com"
+description: "M.A. Economics @ Seoul National University"
+url: "https://hyunseung-data.github.io"
 baseurl: ""
 
-# -----------------------------------------------------------------------------
 # Theme
-# -----------------------------------------------------------------------------
-remote_theme: alshedivat/al-folio
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
-navbar_fixed: true
-footer_fixed: false
-search_enabled: false
+# Site Author (왼쪽 사이드바)
+author:
+  name: "Hyunseung Lee"
+  avatar: "/assets/img/profile.jpeg"
+  bio: "M.A. Economics @ SNU"
+  location: "Seoul, South Korea"
+  email: "thomas96124@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:thomas96124@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hyunseung-data"
 
-# Dimensions
-max_width: 800px
-
-# -----------------------------------------------------------------------------
-# Open Graph & Schema.org
-# -----------------------------------------------------------------------------
-serve_og_meta: true
-serve_schema_org: true
-og_image: /assets/img/profile.jpeg
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: hyunseung-data
-email_address: thomas96124@gmail.com
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-markdown: kramdown
-highlighter: rouge
-
-# Includes & Coverage
-include: ['_pages']
-exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - _bibliography
-
-# Plug-ins (간소화)
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-toc
-  - jemoji
-  - jekyll-remote-theme
-
-# Sitemap settings
+# Defaults
 defaults:
   - scope:
-      path: "assets"
+      path: ""
+      type: pages
     values:
-      sitemap: false
+      layout: single
+      author_profile: true
+      toc: false
 
-# -----------------------------------------------------------------------------
-# Optional Features
-# -----------------------------------------------------------------------------
-enable_google_analytics: false
-enable_masonry: false
-enable_math: false
-enable_tooltips: false
-enable_darkmode: true
-enable_project_categories: false
-enable_medium_zoom: false
+# Build Settings
+markdown: kramdown
+locale: "en-US"
+include: ["_pages"]
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-remote-theme

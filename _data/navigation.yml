@@ -1,2 +1,9 @@
-# Navigation links displayed in the header
-# Order is determined by nav_order in each page's front matter
+main:
+  - title: "About"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "CV"
+    url: /cv/

@@ -1,10 +1,8 @@
 ---
-layout: page
-title: Research
+layout: single
+title: "Research"
 permalink: /research/
-description: 
-nav: true
-nav_order: 1
+author_profile: true
 ---
 
 ## Working Papers

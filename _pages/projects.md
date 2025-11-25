@@ -1,10 +1,8 @@
 ---
-layout: page
-title: Projects
+layout: single
+title: "Projects"
 permalink: /projects/
-description: Academic projects and coursework
-nav: true
-nav_order: 2
+author_profile: true
 ---
 
 ## Academic Projects
