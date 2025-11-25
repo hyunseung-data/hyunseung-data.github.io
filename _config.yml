@@ -14,7 +14,7 @@ markdown: kramdown
 # Site Author
 author:
   name: "Hyunseung Lee"
-  avatar: "/images/profile.jpeg"
+  avatar: "images/profile.jpeg"
   bio: "M.A. Economics @ SNU<br>Aspiring Data Scientist"
   location: "Seoul, South Korea"
   email: "thomas96124@gmail.com"

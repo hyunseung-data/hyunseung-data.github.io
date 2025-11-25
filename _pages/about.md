@@ -5,9 +5,11 @@ permalink: /
 author_profile: true
 ---
 
-I am a first-year M.A. student in Economics at **Seoul National University**, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). 
+<img src="/images/profile.jpeg" alt="Hyunseung Lee" style="width: 180px; border-radius: 50%; margin-bottom: 1rem; border: 3px solid rgba(79, 209, 197, 0.5); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
 
-My research interests lie in **causal inference**, **labor economics**, and **applied microeconometrics**. I am particularly interested in using large-scale administrative data to study labor market dynamics and policy effects.
+I am a second-year M.A. student in Economics at **Seoul National University**, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). 
+
+My research interests lie in **causal machine learning**, **labor economics**, and **applied microeconometrics**. I am particularly interested in using large-scale administrative data to study labor market dynamics and policy effects.
 
 Before graduate school, I worked as a **Data Analyst → Data Product Manager** at [Toss](https://toss.im/en) (Viva Republica), Korea's leading fintech company, where I applied machine learning and causal inference methods to drive product decisions as Toss expanded into a financial super-app serving **20M+ users**.
 
@@ -26,10 +28,10 @@ I am seeking **Data Science M.S. programs** for Fall 2026, aiming to deepen my e
 ## Current Research
 
 **Reallocation Channel of a Minimum-Wage Shock** *(with Prof. Jungmin Lee)*
-> Analyzing labor reallocation following Korea's 30%+ minimum wage increase using 300M+ employer-employee matched administrative records. Employing DiD methodology to identify how regional business cycles moderate employment and reallocation effects.
+> Analyzing labor reallocation following Korea's 30%+ minimum wage increase using 300M+ employer-employee matched administrative records. Employing TWFE methodology to identify how regional business cycles moderate employment and reallocation effects.
 
 **Family-Friendly Firms and the Motherhood Penalty** *(with Tammy Lee & Prof. Jungmin Lee)*
-> Investigating how workplace flexibility mitigates the motherhood penalty using causal forest models for heterogeneous treatment effect estimation.
+> Investigating how workplace amenity mitigates the motherhood penalty using causal forest models for heterogeneous treatment effect estimation.
 
 ---
 
