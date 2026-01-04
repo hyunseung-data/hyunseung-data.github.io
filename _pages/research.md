@@ -8,7 +8,7 @@ author_profile: true
 ## Working Papers
 
 ### Sorting of Working Parents into Family-Friendly Firms
-*with Tammy Lee & Prof. Jungmin Lee (Seoul National University)*
+*with Ross Chu, Sohee Jeon & Tammy Lee*
 
 📄 [Paper (PDF)](/assets/files/Sorting_Writing.pdf)
 
