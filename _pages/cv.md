@@ -19,7 +19,7 @@ author_profile: true
 ---
 
 ## Experience
-**Data Analyst/Data Product Manager** — Toss (Viva Republica) *(2021 – 2023)*
+**Data Analyst/Product Manager** — Toss (Viva Republica) *(2021 – 2023)*
 
 ---
 
