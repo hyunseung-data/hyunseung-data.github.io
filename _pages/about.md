@@ -8,7 +8,7 @@ author_profile: true
 
 I received my M.A. in Economics from **Seoul National University** in August 2026, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). My research interests are in **labor economics** and **firm dynamics**.
 
-My research asks how workers and firms adjust to labor-market policies and shocks, and how differences across firms—in productivity, pay, and workplace conditions—shape workers' careers. Current projects study employment and worker reallocation after minimum wage shocks, and which workplace amenities reduce the motherhood penalty and what firm differences in penalties reflect.
+My research asks how workers and firms adjust to labor-market policies and shocks, and how differences across firms in productivity, capital composition, and workplace amenities shape workers' careers. Current projects study employment and worker reallocation after minimum wage shocks, and which workplace amenities reduce the motherhood penalty and what firm differences in penalties reflect.
 
 Before graduate school, I worked as a **Data Analyst / Product Manager** at [Toss](https://toss.im/en/team) (Viva Republica), Korea's leading fintech company, where I applied causal inference and machine learning to product decisions at the scale of **20M+ users**.
 

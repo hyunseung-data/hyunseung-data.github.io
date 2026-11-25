@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research is in **labor economics** and **firm dynamics**. I study how workers reallocate across firms in response to labor-market policies, and how differences across firms—in productivity, pay, and workplace conditions—shape workers' careers. My work uses matched employer–employee administrative data from Statistics Korea.
+My research is in **labor economics** and **firm dynamics**. I study how workers reallocate across firms in response to labor-market policies, and how differences across firms in productivity, capital composition, and workplace amenities shape workers' careers. My work uses matched employer–employee administrative data from Statistics Korea.
 
 ---
 
