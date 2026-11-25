@@ -11,7 +11,7 @@ author_profile: true
 
 ## Education
 
-**M.A. in Economics** — Seoul National University *(2024 – Present)*
+**M.A. in Economics** — Seoul National University *(2024 – 2026)*
 - Advisor: Prof. Jungmin Lee
 
 **B.A. in Economics** — Seoul National University *(2015 – 2022)*
