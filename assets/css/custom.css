@@ -5,7 +5,6 @@
 
 .author__avatar img {
   width: 100% !important;
-  max-width: 100% !important;
   height: auto !important;
   border-radius: 0 !important;
 }
@@ -14,12 +13,12 @@
 .research-item {
   display: flex;
   gap: 2em;
-  align-items: flex-start;
-  margin: 1.5em 0 2.5em;
+  align-items: center;
+  margin: 1.5em 0 3em;
 }
 .research-figure {
-  flex: 0 0 40%;
-  max-width: 40%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .research-figure img {
   width: 100%;
@@ -71,21 +70,10 @@
   .research-figure { flex-basis: auto; max-width: 100%; }
 }
 
-/* ---- Layout: wider sidebar (bigger photo), smaller sidebar text, slightly smaller body text ---- */
+/* ---- Layout: wider content column, smaller sidebar text, slightly smaller body text ---- */
 @media (min-width: 57.8125em) {
-  .sidebar {
-    width: 22% !important;
-    margin-right: 1.5% !important;
-  }
   .page {
-    width: 76.5% !important;
-    padding-left: 3% !important;
-    padding-right: 12% !important;
-  }
-}
-@media (min-width: 80em) {
-  .sidebar {
-    max-width: 320px !important;
+    padding-right: 6% !important;
   }
 }
 .sidebar .author__name {
