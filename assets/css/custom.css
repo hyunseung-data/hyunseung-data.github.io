@@ -23,11 +23,11 @@
 .research-figure img {
   width: 100%;
   height: auto;
-  border: 1px solid #e5e5e5;
+  border: 1px solid rgba(128, 128, 128, 0.3);
 }
 .research-caption {
   font-size: 0.75em;
-  color: #666;
+  opacity: 0.7;
   text-align: center;
   margin: 0.5em 0 0;
   line-height: 1.4;
@@ -46,7 +46,7 @@
 }
 .research-authors {
   font-size: 0.9em;
-  color: #555;
+  opacity: 0.8;
   margin: 0 0 0.8em;
 }
 .research-abstract {
@@ -63,7 +63,7 @@
   margin-bottom: 0.3em;
 }
 .research-note {
-  color: #777;
+  opacity: 0.7;
 }
 @media (max-width: 768px) {
   .research-item { flex-direction: column; gap: 1em; }
