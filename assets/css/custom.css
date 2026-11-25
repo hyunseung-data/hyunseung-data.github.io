@@ -8,3 +8,64 @@
   height: auto !important;
   border-radius: 0 !important;
 }
+
+/* ---- Research page: figure (left) + title/links (right) cards ---- */
+.research-item {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin: 1.5em 0 2.5em;
+}
+.research-figure {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.research-figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e5e5e5;
+}
+.research-caption {
+  font-size: 0.75em;
+  color: #666;
+  text-align: center;
+  margin: 0.5em 0 0;
+  line-height: 1.4;
+}
+.research-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.research-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.25em;
+  margin: 0 0 0.3em;
+  line-height: 1.3;
+}
+.research-authors {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0 0 0.8em;
+}
+.research-abstract {
+  font-size: 0.85em;
+  line-height: 1.6;
+  margin: 0 0 0.8em;
+}
+.research-links {
+  font-size: 0.85em;
+  margin: 0;
+  padding-left: 1.2em;
+}
+.research-links li {
+  margin-bottom: 0.3em;
+}
+.research-note {
+  color: #777;
+}
+@media (max-width: 768px) {
+  .research-item { flex-direction: column; gap: 1em; }
+  .research-figure { flex-basis: auto; max-width: 100%; }
+}

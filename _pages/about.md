@@ -6,34 +6,33 @@ author_profile: true
 ---
 ## About me
 
-I am a second-year M.A. student in Economics at **Seoul National University**, advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). 
+I am an economist working on **labor economics** and **firm dynamics**. I received my M.A. in Economics from **Seoul National University** in August 2026, where I was advised by [Prof. Jungmin Lee](https://sites.google.com/view/jungminlee71/home). My master's thesis, *Employment and Reallocation after a Minimum Wage Shock*, studies who loses their job, where displaced workers go, and who is hired in their place after Korea's 29% minimum wage increase, using employer–employee matched administrative data from Statistics Korea.
 
-My research interests lie in **causal machine learning**, **program evaluation**, and **computational social science**. I am particularly interested in using large-scale administrative data to understand human behavior and the effects of real-world interventions, especially in labor and social policy contexts.
+My research asks how workers and firms adjust to labor-market policies and shocks, and how differences across firms—in productivity, pay, and workplace conditions—shape workers' careers. Current projects study employment and worker reallocation after minimum wage shocks, and which workplace amenities reduce the motherhood penalty and what firm differences in penalties reflect.
 
-Before graduate school, I worked as a **Data Analyst/Product Manager** at [Toss](https://toss.im/en/team) (Viva Republica), Korea's leading fintech company, where I applied machine learning and causal inference methods to drive product decisions as Toss expanded into a financial super-app serving **20M+ users**.
+Before graduate school, I worked as a **Data Analyst / Product Manager** at [Toss](https://toss.im/en/team) (Viva Republica), Korea's leading fintech company, where I applied causal inference and machine learning to product decisions at the scale of **20M+ users**.
 
-I am seeking **Data Science M.S. programs** for Fall 2026, aiming to deepen my expertise in computational methods for causal inference.
+I am applying to **Ph.D. programs in Economics** for Fall 2027.
 
 ---
 
 ## Research Interests
 
-- **Causal Inference & Machine Learning**  
-  Double ML, Causal Forest, Policy Learning  
-- **Program Evaluation with Administrative Big Data**  
-  Labor market interventions, behavioral responses to economic shocks  
-- **Computational Social Science**  
-  Platform economics, network effects, consumer behavior analysis
+- **Labor Economics**  
+  Minimum wages, worker reallocation and job ladders, gender gaps and the motherhood penalty
+- **Firm Dynamics**  
+  Firm heterogeneity, productivity and pay, workplace conditions and benefits
+- **Applied Econometrics**  
+  Matched employer–employee data, difference-in-differences, causal machine learning
 
 ---
 
-## Current Research
+## Research
 
-**Reallocation Channel of a Minimum-Wage Shock** 📄 [Slides (PDF)](/assets/files/MW_Slides.pdf)  
-*(with Prof. Jungmin Lee)*
+**Employment and Reallocation after a Minimum Wage Shock** — M.A. thesis, writing sample  
+📄 [Draft](/assets/files/MW_Paper.pdf) · [Slides](/assets/files/MW_Slides.pdf)
 
-**Family-Friendly Firms and the Motherhood Penalty** 📄 [Slides (PDF)](/assets/files/Amenity_Slides.pdf)  
-*(with Tammy Lee & Prof. Jungmin Lee)*
+**Family-Friendly Firms and the Motherhood Penalty** (with Tammy Lee and Jungmin Lee) — in progress  
+📄 Draft coming soon! · [Slides](/assets/files/Amenity_Slides.pdf)
 
-
----
+See the [Research](/research/) page for details.
