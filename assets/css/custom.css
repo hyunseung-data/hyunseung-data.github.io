@@ -69,3 +69,31 @@
   .research-item { flex-direction: column; gap: 1em; }
   .research-figure { flex-basis: auto; max-width: 100%; }
 }
+
+/* ---- Layout: wider sidebar (bigger photo), smaller sidebar text, slightly smaller body text ---- */
+@media (min-width: 57.8125em) {
+  .sidebar {
+    width: 22% !important;
+    margin-right: 1.5% !important;
+  }
+  .page {
+    width: 76.5% !important;
+    padding-left: 3% !important;
+    padding-right: 12% !important;
+  }
+}
+@media (min-width: 80em) {
+  .sidebar {
+    max-width: 320px !important;
+  }
+}
+.sidebar .author__name {
+  font-size: 0.9em !important;
+}
+.sidebar p,
+.sidebar li {
+  font-size: 0.7em !important;
+}
+.page__content {
+  font-size: 0.94em;
+}

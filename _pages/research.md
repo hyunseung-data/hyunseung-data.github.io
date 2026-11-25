@@ -22,9 +22,9 @@ My research is in **labor economics** and **firm dynamics**. I study how workers
       Using employer–employee matched data from Statistics Korea (2015–2020) and firm-level exposure to Korea's 29% minimum wage increase of 2018–2019, I show that employment falls at more exposed firms, mostly through separations rather than hiring. Low-quality workers account for 63% of these separations. More than half of separated workers remain in nonemployment, while 26% move up the job ladder to more productive firms and only 2% move down. On the hiring margin, firms substitute high-quality for low-quality workers.
     </p>
     <ul class="research-links">
-      <li><a href="/assets/files/MW_Paper.pdf">Draft</a>, November 2026 <span class="research-note">(M.A. thesis; writing sample)</span></li>
+      <li><a href="/assets/files/MW_Paper.pdf">Draft</a>, November 2026 <span class="research-note">(writing sample)</span></li>
       <li><a href="/assets/files/MW_Slides.pdf">Slides</a>, November 2026</li>
-      <li>Presented at the 2026 Joint Conference of Economic Associations and the WEAI 18th International Conference, April 2026</li>
+      <li>Presented at the WEAI 18th International Conference, April 2026</li>
     </ul>
   </div>
 </div>
