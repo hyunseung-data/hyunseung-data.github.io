@@ -6,7 +6,7 @@ url: "https://hyunseung-data.github.io"
 baseurl: ""
 
 # Theme - Academic Pages
-remote_theme: "academicpages/academicpages.github.io"
+remote_theme: "academicpages/academicpages.github.io@131f92f42395beb045a5afdde8124ec34e6ad8bf"
 
 locale: "en-US"
 markdown: kramdown
